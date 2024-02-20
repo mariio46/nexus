@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJs 14 Starterkit
 
-## Getting Started
+Simple Starterkit for NextJS (App Router / Dir) Application using Shadcn/UI, TailwindCSS
 
-First, run the development server:
+## Features
+
+-   Refactoring Shadcn into plugin and preset
+-   Easy to change or add more theme
+-   Setting up the dark mode
+-   Login and Register Page
+-   Using the best Icon from Tabler (Components from Shadcn/UI are modified using Tabler Icons too)
+-   Setting up prettier from Prettier Plugin Tailwindcss
+-   Setting up Tailwind Merge and CLSX
+-   Using Geist Font from NextJS
+-   Provide some custom hooks for Loading
+-   Provide some custom hooks for handle Dialog from Shadcn/UI
+
+## Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone
+
+cd project
+
+npm install && npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Techs
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This starterkit uses a number of open source projects to work properly:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-   [NextJs](https://nextjs.org/) - The React Framework for the Web
+-   [Shadcn/UI](https://ui.shadcn.com/) - Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
+-   [TailwindCSS](https://tailwindcss.com) - A utility-first CSS framework packed with classes
+-   [Tabler Icons](https://tabler.io/icons) - Free and open source icons designed to make your website or app attractive, visually consistent and simply beautiful.
+-   [Tailwind Prettier](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+-   [Geist Font](https://vercel.com/font) - Geist truly represents the coding and design spirit within Vercel's creative community.
 
-## Learn More
+## Customize Theme
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-   Go to [Shadcn Themes](https://ui.shadcn.com/themes) and chose theme
+-   Open file `./lib/shadcn/plugin.ts` add or customize the thme
+-   Restart the server
