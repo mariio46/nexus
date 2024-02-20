@@ -14,6 +14,7 @@ Simple Starterkit for NextJS (App Router / Dir) Application using Shadcn/UI, Tai
 -   Using Geist Font from NextJS
 -   Provide some custom hooks for Loading
 -   Provide some custom hooks for handle Dialog from Shadcn/UI
+-   Add TanStack Query for fetching data on client
 
 ## Installation
 
@@ -35,6 +36,7 @@ This starterkit uses a number of open source projects to work properly:
 -   [Tabler Icons](https://tabler.io/icons) - Free and open source icons designed to make your website or app attractive, visually consistent and simply beautiful.
 -   [Tailwind Prettier](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 -   [Geist Font](https://vercel.com/font) - Geist truly represents the coding and design spirit within Vercel's creative community.
+-   [TanStack](https://tanstack.com/) - Headless, type-safe, & powerful utilities for State Management, Routing, Data Visualization, Charts, Tables, and more.
 
 ## Customize Theme
 
