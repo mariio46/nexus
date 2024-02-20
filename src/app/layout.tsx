@@ -5,8 +5,21 @@ import { cn } from '@/lib/utils/tailwind-merge';
 import TanStackProvider from '@/providers/tanstack-provider';
 
 export const metadata: Metadata = {
-    title: 'Save Spot',
-    description: 'Simple saving your url.',
+    title: 'Nexus',
+    description: 'Simple starterkit for your new website.',
+    authors: { name: 'Mario', url: 'https://github.com/mariio46' },
+    keywords: ['nextjs', 'nextjs14', 'starterkit', 'shadcnui', 'tailwindcss', 'tanstack query'],
+    applicationName: 'Nexus',
+    creator: '@mario46',
+    openGraph: {
+        type: 'website',
+        countryName: 'indonesia',
+        emails: 'mariomad2296@gmail.com',
+        siteName: 'Nexus',
+        locale: 'id-ID',
+        title: 'Nexus - Simple Starterkit for your new website.',
+        url: 'https://nexus-14.vercel.app/',
+    },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
